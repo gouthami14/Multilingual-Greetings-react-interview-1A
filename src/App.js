@@ -35,7 +35,7 @@ class App extends Component {
     activeTabId: languageGreetingsList[0].id,
   }
 
-  onClickTabItem = tabValue => {
+  clickTabItem = tabValue => {
     this.setState({activeTabId: tabValue})
   }
 
